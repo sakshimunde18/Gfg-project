@@ -11,74 +11,72 @@
 <body>
     <script>
         // Task 15
-
         // Write a js program to take age of the user as input and check if the age is greater than 0 and equals to 18 print "you are 18 year old" and also calculate the number of years remaining to complete 18 and print on document 
         //if age is less than 50 but greater than 18 then print "you are under 50" and also calculate the number of years remaining to complete 50 and print on document 
         //if age is less than 70 but greater than 50 print "you are under 70 " and also calculate the number of years remaining to complete 70 and print on document else print "you are exceed 70"
 
-        <!-- var age = prompt("Enter your age");
+        var age = prompt("Enter your age");
         if (age >= 18) {
             document.write("You are 18 year old");
         } else {
             document.write("Number of years remaining to complete 18:" + (18 - age));
-        } -->
+        }
 
         //Task 16
-
         //Write a js program to make calculator using Switch-case and also using if-else nested
         // using if-else
 
-        // const operator = prompt('Enter operator ( +, -, * or / ): ');
-        //const number1 = parseFloat(prompt('Enter first number: '));
-        //const number2 = parseFloat(prompt('Enter second number: '));
-        //let result;
-        // if (operator == '+') {
-        //   result = number1 + number2;
-        //}
-        //else if (operator == '-') {
-        //  result = number1 - number2;
-        //}
-        //else if (operator == '*') {
-        //  result = number1 * number2;
-        //}
-        //else {
-        //  result = number1 / number2;
-        //}
-        //document.write(`${number1} ${operator} ${number2} = ${result}`);  
+         const operator = prompt('Enter operator ( +, -, * or / ): ');
+         const number1 = parseFloat(prompt('Enter first number: '));
+        const number2 = parseFloat(prompt('Enter second number: '));
+         let result;
+         if (operator == '+') {
+           result = number1 + number2;
+         }
+        else if (operator == '-') {
+          result = number1 - number2;
+        }
+        else if (operator == '*') {
+         result = number1 * number2;
+        }
+        else {
+         result = number1 / number2;
+        }
+        document.write(`${number1} ${operator} ${number2} = ${result}`);  
 
         //Switch-case
 
 
-        //let result;
-        // const operator = prompt('Enter operator (  +, -, * or / ): ');
-        // const number1 = parseFloat(prompt('Enter first number: '));
-        //const number2 = parseFloat(prompt('Enter second number: '));
+        let result;
+         const operator = prompt('Enter operator (  +, -, * or / ): ');
+        const number1 = parseFloat(prompt('Enter first number: '));
+        const number2 = parseFloat(prompt('Enter second number: '));
 
-        //switch (operator) {
-        //   case '+':
-        //     result = number1 + number2;
-        //   document.write(`${number1} + ${number2} = ${result}`);
-        // break;
+        switch (operator) {
+          case '+':
+            result = number1 + number2;
+           document.write(`${number1} + ${number2} = ${result}`);
+         break;
 
-        //case '-':
-        //  result = number1 - number2;
-        //document.write(`${number1} - ${number2} = ${result}`);
-        //break;
+        case '-':
+         result = number1 - number2;
+        document.write(`${number1} - ${number2} = ${result}`);
+        break;
 
-        //case '*':
-        //  result = number1 * number2;
-        //document.write(`${number1} * ${number2} = ${result}`);
-        //break;
+        case '*':
+          result = number1 * number2;
+        document.write(`${number1} * ${number2} = ${result}`);
+        break;
 
-        //case '/':
-        //  result = number1 / number2;
-        //document.write(`${number1} / ${number2} = ${result}`);
-        //break;
+        case '/':
+         result = number1 / number2;
+        document.write(`${number1} / ${number2} = ${result}`);
+        break;
 
-        //default:
-        //document.write('Invalid operator');
-        //  break;
-        //}
+        default:
+        document.write('Invalid operator');
+          break;
+        }
 
 
         //Task 17
