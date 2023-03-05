@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Munde session9 Task</title>
+</head>
+<body>
+    <!-- Task 29 -->
+    <!-- "Using JS Program create a Calculator by taking Two Operator and two Operand as an input from User and display the Result
+
+For Example :- 
+Operand 1 :- 20;                  
+Operand 1 :-25
+                      
+Operator 1:- “+”                   
+Operator 1:- “-”
+                      
+Result 1:-  20 + 25             
+Result 1:-  20 - 25 " -->
+<script>
+    var a=prompt("enter 1st no.");
+    var b=prompt("enter 2nd no.");
+    var op1=prompt("enter 1st operator");
+    var op2=prompt("enter 2nd operator");
+    var x=parseInt(a);
+    var y=parseInt(b);
+    function cal(a,b,op1){
+        if(op1=="+"){
+            document.write("x+y=",x+y,"<br>");
+        } else if(op1=="-"){
+            document.write("x-y=",x-y,"<br>");
+        } else if(op1=="*"){
+            document.write("x*y=",x*y,"<br>");
+        }else if (op1=="/"){
+            document.write("x/y=",x/y,"<br>");
+        }else {
+            document.write("enter valid operator<br>");
+        }
+        cal2(a,b,op2);
+    }
+    function cal2(a,b,op2){
+        if(op2=="+"){
+            document.write("x+y=",x+y);
+        } else if(op2=="-"){
+            document.write("x-y=",x-y,);
+        } else if(op2=="*"){
+            document.write("x*y=",x*y);
+        }else if (op2=="/"){
+            document.write("x/y=",x/y);
+        }else {
+            document.write("enter valid operator");
+        }
+        
+    }
+let s=document.createElement("h3");
+let p=document.createTextNode("calculator using function");
+s.append(p);
+document.body.append(s);
+s.style.textAlign="center";
+s.style.color="white";
+s.style.backgroundColor="pink";
+cal(a,b,op1,op2);
+</script>
+
+    
+</body>
+</html>

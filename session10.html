@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Munde session10 Task</title>
+    <!-- <style>
+
+         div{ width: 200px;
+        height: 40px;
+        border: 2px solid black; 
+        margin-right: 100px;
+        margin-top: 200px;
+         margin-bottom: 100px; 
+         margin-left: 600px;
+        }
+        .c1{ text-align: center;
+        }
+        </style> -->
+</head>
+
+    <!-- Task 29
+    Write a Js Program Using Events to show a message that you are in a div if mouse is in div change the color of the div to yellow and background color to black and show you are outside the div if mouse is outside the div and message is shown inside the dive only and also change the color of the div to black and background color to white
+     -->
+     <!-- <body id="b1">
+        <div onmouseover="onOver()" onmouseout="OnMoveOut()" id="div1" class="c1">Move cursor here</div>
+        <script>
+        function onOver() {
+        document.getElementById("div1").innerHTML = "You are in div";
+        document.getElementById("div1").style.color ="pink";
+         document.getElementById("b1").style.backgroundColor = "black";
+        }
+        function OnMoveOut() {
+        document.getElementById("div1").innerHTML = "You are outside the div";
+         document.getElementById("div1").style.color="red";
+        document.getElementById("b1").style.backgroundColor="yellow";
+        }
+        </script> -->
+
+
+       <!-- Task30
+        Write a JS Program using Events to count the inputs Enters by the user in alert after every input add
+     -->
+     <!-- <div>
+        <input id=" inp1  "type="text" onkeypress="countInput()"/>
+    </div>
+    
+     <script>
+        var count=0;
+        function countInput(){
+            count=count+1;
+            alert("key is pressed"+ count +"times");
+        }
+    </script> -->
+
+    <!-- Task31
+    Write a JS Program to change the width of the div  to 100% height to 50%  and backgroundcolor to yellow and color to red using Events and change the width and height and baccol and color to black to normal if mouse is out -->
+
+    <div id="a" onmouseenter="change1()"onmouseleave="change2()">
+        I am Sakshi Suhas Munde I m pursuing B.tech in Marathwada Institute of Technology, Aurangabad I have completed my schooling  from sharada mandir girls high school ,aurangabad
+        My strength is a self-motivated, a positive thinker & a hard worker I have 4 members in my family including me.
+        My hobbies are watching serials/movies, listening to music,cooking,Swimming,drawing,interacting with new people
+        My short-term goal is to get a job in a well-reputed company like yours.My long-term goal is to get a reputed position in the company where I can build my career & help the organization.
+        That's all about myself
+    </div>
+     <script>
+    function change1()
+    {
+    var a= document.getElementById("a").style.backgroundColor="yellow"; 
+    var b= document.getElementById("a").style.color="red";
+    var c=document.getElementById("a").style.height="800px";
+    var d =document.getElementById("a").style.width="100%"
+     }
+    function change2()
+    {
+    var a= document.getElementById("a").style.backgroundColor="White";
+    var b= document.getElementById("a").style.color ="black";
+    var c=document.getElementById("a").style.height="100px";
+    var d= document.getElementById("a").style.width="800px"
+    }
+    </script>
+
+</body>
+</html>

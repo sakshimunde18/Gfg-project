@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Munde session8 Task</title>
+</head>
+
+<body>
+
+    <!-- Task 25 -->
+    <!-- Create a Web Page in which we have to add a “div” Element of class “myDiv” and insert Text inside this Div Element -->
+    <!-- <br> <br>
+    <body id="s">
+        <script>
+            let a=document.createElement("div");
+            let b=document.createTextNode("hi im sakshi")
+            a.append(b);
+            document.body.append(a);
+            a.className="myDiv";
+            document.getElementsByClassName("myDiv")[0].innerHTML="<i>hi im sakshi</i>";
+        </script> -->
+
+    <!-- Task26 -->
+    <!-- Create a Web Page in which we have to add a Element of class “myDiv” and insert Text inside this Element but take the Element name and Text node from User and also pass Element name and Text node as a parameter to a Function.
+       Note :- Do it using  DOM Elements -->
+
+    <!-- <body>
+
+        <script>
+        
+        let ele = prompt ("Enter element name (h1, div,1,b, h3,p)");
+         let text = prompt("Enter element name (hello , Hi, I'm sakshi)");
+        
+        function t(ele, text) {
+        
+        let a = document.createElement(ele); 
+        let b= document.createTextNode(text);
+        
+        a.append(b);
+        
+        document.body.append(a);
+        
+        a.className= "mydiv";
+        
+        document.getElementsByClassName("mydiv")[0].innerHTML = text;
+        
+        } t(ele, text);
+        
+        </script>
+    </body> -->
+
+
+    <!-- Task27
+    Create a Web Page in which we have to add a “div” Element of class “myDiv” and insert Text inside this Div Element and change the style of the div using DOM Element -->
+    <!-- <body> 
+        <script>
+        let a = document.createElement("div"); 
+        let b = document.createTextNode("Hi")
+        a.append(b);
+        document.body.append(a);
+        a.className= "mydiv";
+         document.getElementsByClassName("mydiv")[0].style.color = "white";
+        document.getElementsByClassName("mydiv")[0].style.backgroundColor = "purple"; 
+        document.getElementsByClassName("mydiv")[0].style.border="2px  orange"
+        </script>
+        
+        </body> -->
+
+     <!-- Task28
+        Create a Web Page with two unorderlist item and add the third one before the second item using Dom Element
+       Before:- Coffee                     After:- Coffee
+ 	     Tea                                      Drink
+                                                 Tea -->
+     
+    <!-- <body>
+     <ul id="1">
+     <li>Coffee</li>
+     <li>Tea</li>
+    </ul>
+                                                    
+     <script>
+    let a = document.createElement("li"); 
+    let b = document.createTextNode("Drink");
+    a.append(b);
+     let list = document.getElementById("1");
+    list.insertBefore(a, list.children[1]);                                              
+</script>
+                                                    
+</body>                                                 -->
+                                                    
+
+
+</body>
+
+</html>
