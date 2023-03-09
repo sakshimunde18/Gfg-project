@@ -1,6 +1,10 @@
 ## [Iqra-Technology](https://github.com/sakshimunde18/Iqra-Technolgy)
 
 1. [Session1](https://github.com/sakshimunde18/Iqra-Technolgy/blob/main/Session1.html)<br>
+  Task 1<br>
+  Write Program to print "My first Js program"<br>
+  Task 2<br>
+     Display greeting message with alert box
 2. [Session2](https://github.com/sakshimunde18/Iqra-Technolgy/blob/main/Session2.html)<br>
 3. [Session3](https://github.com/sakshimunde18/Iqra-Technolgy/blob/main/Session3.html)<br>
 4. [Session4](https://github.com/sakshimunde18/Iqra-Technolgy/blob/main/Session4.html)<br>
