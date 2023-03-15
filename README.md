@@ -1,20 +1,20 @@
 ## [Iqra-Technology](https://github.com/sakshimunde18/Iqra-Technolgy)
 
 1. [Session1](https://github.com/sakshimunde18/Iqra-Technolgy/blob/main/Session1.html)<br>
-  Task 1<br>
-  Write Program to print "My first Js program"<br>
-  
-  Task 2<br>
-     Display greeting message with alert box
-2. [Session2](https://github.com/sakshimunde18/Iqra-Technolgy/blob/main/Session2.html)<br><br>
-       Task 3<br>
-       "Write a program to print messages with different methods<br>
-       -- console.log.<br>
-       -- alert <br>
-       -- promt, confirm (show this all in innerHTML) "
+     Task 1<br>
+     Write Program to print "My first Js program"<br>
+     Task 2<br>
+     Display greeting message with alert box<br><br>
+     
+2. [Session2](https://github.com/sakshimunde18/Iqra-Technolgy/blob/main/Session2.html)<br>
+     Task 3<br>
+     "Write a program to print messages with different methods<br>
+     -- console.log.<br>
+     -- alert <br>
+     -- promt, confirm (show this all in innerHTML) "
         <br>
-       Task 4 <br>
-        Write a program in JavaScript and use backticks to create a multi-line string. and display the result
+    Task 4 <br>
+    Write a program in JavaScript and use backticks to create a multi-line string. and display the result<br><br>
 
 3. [Session3](https://github.com/sakshimunde18/Iqra-Technolgy/blob/main/session3.html)<br>
    Task 5<br>
