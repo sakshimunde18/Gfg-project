@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sakshi's session14 task</title>
+</head>
+<body>
+    <!-- Task -->
+    <!-- Write a program that uses a for loop to iterate over an array of strings and prints out only the strings that contain the letter "e". -->
+<script>
+    arr=[];
+    arr2=[];
+    for (var i=0;i<4;i++){
+        var a=prompt("enter string:");
+        arr[i]=a;
+    }
+    var a=arr.filter(i => i.includes("e"))
+    console.log(a);
+</script>
+
+<!-- Task -->
+<!-- "Create a JavaScript function called countVowels that takes a string as input and returns the number of vowels (a, e, i, o, u) in the string 
+IQRA TECHNOLOGY :- 5" -->
+<script>
+    function countVowels() {
+        const str = prompt("Enter a string:");
+        const lowerStr = str.toLowerCase();
+        const vowels = ['a', 'e', 'i', 'o', 'u'];
+        let count = 0;
+        for (let i = 0; i < lowerStr.length; i++) {
+          if (vowels.includes(lowerStr[i])) {
+            count++;
+          }
+        }
+        return count;
+      }
+      const vowelCount = countVowels();
+      console.log("Number of voweles:"+vowelCount);
+</script>
+
+
+
+</body>
+</html>
