@@ -23,33 +23,23 @@
             a.className="myDiv";
             document.getElementsByClassName("myDiv")[0].innerHTML="<i>hi im sakshi</i>";
         </script> 
-
+       </body> 
     <!-- Task26 -->
     <!-- Create a Web Page in which we have to add a Element of class “myDiv” and insert Text inside this Element but take the Element name and Text node from User and also pass Element name and Text node as a parameter to a Function.
        Note :- Do it using  DOM Elements -->
 
      <body>
-
         <script>
-        
         let ele = prompt ("Enter element name (h1, div,1,b, h3,p)");
          let text = prompt("Enter element name (hello , Hi, I'm sakshi)");
-        
         function t(ele, text) {
-        
         let a = document.createElement(ele); 
         let b= document.createTextNode(text);
-        
         a.append(b);
-        
         document.body.append(a);
-        
         a.className= "mydiv";
-        
         document.getElementsByClassName("mydiv")[0].innerHTML = text;
-        
         } t(ele, text);
-        
         </script>
     </body> 
 
@@ -68,9 +58,9 @@
         document.getElementsByClassName("mydiv")[0].style.backgroundColor = "purple"; 
         document.getElementsByClassName("mydiv")[0].style.border="2px  orange"
         </script>
-        
         </body> 
 
+        
      <!-- Task28
         Create a Web Page with two unorderlist item and add the third one before the second item using Dom Element
        Before:- Coffee                     After:- Coffee
@@ -81,20 +71,14 @@
            <ul id="1">
            <li>Coffee</li>
            <li>Tea</li>
-            </ul>
-                                                    
+            </ul>                                
              <script>
              let a = document.createElement("li"); 
              let b = document.createTextNode("Drink");
              a.append(b);
             let list = document.getElementById("1");
             list.insertBefore(a, list.children[1]);                                              
-</script>
-                                                    
-</body>     
-                                                    
-
-
+</script>                                     
 </body>
 
 </html>
