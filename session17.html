@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Task -->
+    <!-- Write a JS program to Calculate the area of a square using inheritance by taking side from user -->
+    
+    <!-- <script>
+    const side = parseFloat(prompt("Enter the side of the square:"));
+    class Shape {
+    constructor() {
+      this.color = "red";
+    }
+    }
+    class Square extends Shape {
+    constructor(side) {
+    super();
+    this.side = side;
+    }
+    get area() {
+    return this.side * this.side;
+    }
+  }
+  const square = new Square(side);
+  console.log(`The area of the square is: ${square.area}`);
+</script> -->
+
+
+
+<!-- Task -->
+<!-- Write a JS program to calculate the Average of the total marks using class Methods -->
+
+<!-- <script>
+class Student {
+    constructor(name, marks) {
+      this.name = name;
+      this.marks = marks;
+    }
+    get totalMarks() {
+      let total = 0;
+      for (let i = 0; i < this.marks.length; i++) {
+        total += this.marks[i];
+      }
+      return total;
+    }
+    get averageMarks() {
+      return this.totalMarks / this.marks.length;
+    }
+  }
+  const student = new Student("sakshi", [90, 85, 95, 80, 85]);
+  console.log(`${student.name}'s total marks are: ${student.totalMarks}`);
+  console.log(`${student.name}'s average marks are: ${student.averageMarks}`);
+</script> -->
+
+
+
+<!-- Task -->
+<!-- Write a js program to print the Name of Different Students and the Average of all marks by taking Marks as an array Example as show in Below Image -->
+<!-- 
+<script>
+class Student {
+    constructor(name, marks) {
+      this.name = name;
+      this.marks = marks;
+    }
+    get averageMarks() {
+      let total = 0;
+      for (let i = 0; i < this.marks.length; i++) {
+        total += this.marks[i];
+      }
+      return total / this.marks.length;
+    }
+  }
+  const students = [
+    new Student("Sakshi", [90, 85, 95, 80, 85]),
+    new Student("Rafat", [80, 75, 90, 95, 80]),
+    new Student("Rohit", [95, 60, 85, 80, 90]),
+    new Student("Rinku", [95, 90, 85, 59, 90]),
+    new Student("Tanu", [82, 90, 85, 80, 90]),
+  ];
+  let totalMarks = 0;
+  for (let i = 0; i < students.length; i++) {
+    totalMarks += students[i].averageMarks;
+  }
+  const averageMarks = totalMarks / students.length;
+  for (let i = 0; i < students.length; i++) {
+    console.log(`${students[i].name}'s average marks are: ${students[i].averageMarks}`);
+  }
+  console.log(`The average marks for all students are: ${averageMarks}`);
+</script> -->
+
+</body>
+</html>
