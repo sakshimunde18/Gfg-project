@@ -41,7 +41,17 @@
      Write a js program to check the age of the user and age is entered by user if age is greater than 18 print “you can drive” and if age is less than 18 print sorry      print in console<br><br>
      
 5. [Session5](https://github.com/sakshimunde18/Iqra-Technolgy/blob/main/Session5.html)<br>
-    
+    Task 15<br>
+   Write a js program to take age of the user as input and check if the age is greater than 0 and equals to 18 print "you are 18 year old" and also calculate the          number of years remaining to complete 18 and print on document 
+   if age is less than 50 but greater than 18 then print "you are under 50" and also calculate the number of years remaining to complete 50 and print on document 
+   if age is less than 70 but greater than 50 print "you are under 70 " and also calculate the number of years remaining to complete 70 and print on document else        print "you are exceed 70"<br>
+   Task16<br>
+   Write a js program to make calculator using Switch-case and also using if-else nested
+   using if-else<br>
+   Task17<br>
+  Write a Js program to print name of the month for example:- if user enter 5 then it will print “May” if user enter 1 then print “January” and if user enter a number   greater than 12 then print an error message “Incorrect Input”<br>
+
+
 8. [Session6](https://github.com/sakshimunde18/Iqra-Technolgy/blob/main/Session6.html)<br>
 9. [Session7](https://github.com/sakshimunde18/Iqra-Technolgy/blob/main/Session7.html)<br>
 10. [Session8](https://github.com/sakshimunde18/Iqra-Technolgy/blob/main/Session8.html)<br>
