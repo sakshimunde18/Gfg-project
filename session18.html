@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Task -->
+    <!-- Write a Js Program To Change The color of the Paragraph After 2 sec of Interval using SetTimeout -->
+    <!-- <script>
+        setTimeout(function() {
+            var paragraph = document.getElementById("my-paragraph");
+            paragraph.style.color = "red";
+          }, 2000);
+          
+    </script> -->
+
+    <!-- Task -->
+    <!-- Write A Js Program To take Task As an Input from User and Update that Task on Document and after the 5 sec again take the input from user that if user has completed its Task or not If User Enter Yes the print ”Promise Fulfilled” in Green color and if no Then Print “Promise Un Fulfilled” in red Color -->
+    <!-- <script>
+    var taskInput = document.getElementById("task-input");
+    var taskOutput = document.getElementById("task-output");
+    function updateTask() {
+      taskOutput.innerText = "Task: " + taskInput.value;
+    }
+    function checkCompletion() {
+      var completed = prompt("Have you completed the task? Enter 'yes' or 'no'.");
+      if (completed === "yes") {
+        taskOutput.innerText += " - Promise Fulfilled";
+        taskOutput.style.color = "green";
+      } else if (completed === "no") {
+        taskOutput.innerText += " - Promise Unfulfilled";
+        taskOutput.style.color = "red";
+      } else {
+        alert("Invalid input. Please enter 'yes' or 'no'.");
+        checkCompletion();
+      }
+    }
+    updateTask();
+    setTimeout(checkCompletion, 5000);
+</script> -->
+
+<!-- Task -->
+<!-- Write a js Program to change Continuously color of the Star after Every 1 sec on button click -->
+<!-- <script>
+var star = document.getElementById("my-star");
+var button = document.getElementById("color-button");
+var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+var colorIndex = 0;
+function changeColor() {
+  star.style.color = colors[colorIndex];
+  colorIndex++;
+  if (colorIndex === colors.length) {
+    colorIndex = 0;
+  }
+}
+button.addEventListener("click", function() {
+  var intervalId = setInterval(changeColor, 1000);
+  setTimeout(function() {
+    clearInterval(intervalId);
+  }, 5000);
+});
+</script> -->
+</body>
+</html>
