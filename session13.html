@@ -73,8 +73,33 @@
  <!--Task -->
 <!-- Add two Array on button click and show the output and when the mouse is in the div where the addition of array is show then show the length of a new array and if the cursor is outside the div then hide the length of the new array -->
 <script>
-    
+    <button onclick="addArrays()">Add Arrays</button>
+<div id="result-container"></div>
+<script>
+var array1 = [1, 2, 3,4,5];
+var array2 = [5,6,7,8,9,10];
+var resultContainer = document.getElementById("result-container");
+function addArrays() {
+  var result = [...array1, ...array2];
+  resultContainer.innerHTML = "";
+  var resultElement = document.createElement("p");
+  resultElement.textContent = result.toString();
+  resultContainer.appendChild(resultElement);
+  resultContainer.classList.add("show");
+}
+resultContainer.addEventListener("mouseenter", function() {
+  var resultElement = resultContainer.querySelector("p");
+  var lengthElement = document.createElement("p");
+  lengthElement.classList.add("length");
+  lengthElement.textContent = "Length: " + resultElement.textContent.split(",").length;
+  resultContainer.appendChild(lengthElement);
+});
+resultContainer.addEventListener("mouseleave", function() {
+  var lengthElement = resultContainer.querySelector(".length");
+  if (lengthElement) {
+    lengthElement.remove();
+  }
+});
 </script>
-
 </body>
 </html>
