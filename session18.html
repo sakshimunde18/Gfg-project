@@ -22,31 +22,6 @@
       color: red;
     } 
 
- */
-/*     .star {
-      width: 100px;
-      height: 100px;
-      position: relative;
-      display: inline-block;
-      margin: 10px;
-    }
-    .star:before,
-    .star:after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 0;
-      height: 0;
-      border-right: 50px solid transparent;
-      border-bottom: 35px solid yellow;
-      border-left: 50px solid transparent;
-      transform: rotate(35deg);
-    }
-    .star:after {
-      transform: rotate(-35deg);
-      border-bottom: 35px solid yellow;
-    } */
   </style>
 </head>
 <body>
@@ -100,6 +75,40 @@ function checkPromise() {
 
 <!-- Task -->
 <!-- Write a js Program to change Continuously color of the Star after Every 1 sec on button click -->
+<div id="star" style="font-size: 50px; color: yellow;">&#9733;&#9733;&#9733;&#9733;</div>
+<div id="star1" style="font-size: 50px; color: yellow;">&#9733;&#9733;&#9733;&#9733;</div>
+<div id="star2" style="font-size: 50px; color: yellow;">&#9733;&#9733;&#9733;&#9733;</div>
+<div id="star3" style="font-size: 50px; color: yellow;">&#9733;&#9733;&#9733;&#9733;</div>
+<button onclick="changeStarColor()">Change Color</button>
+<script>
+function changeStarColor() {
+  setInterval(function() {
+    var colors = ["red", "green", "blue", "purple", "orange"];
+    var randomColor = colors[Math.floor(Math.random() * colors.length)];
+    document.getElementById("star").style.color = randomColor;
+  }, 1000);
+  setInterval(function() {
+    var colors = ["red", "green", "blue", "purple", "orange"];
+    var randomColor = colors[Math.floor(Math.random() * colors.length)];
+    document.getElementById("star1").style.color = randomColor;
+  }, 1000);
+  setInterval(function() {
+    var colors = ["red", "green", "blue", "purple", "orange"];
+    var randomColor = colors[Math.floor(Math.random() * colors.length)];
+    document.getElementById("star2").style.color = randomColor;
+  }, 1000);
+  setInterval(function() {
+    var colors = ["red", "green", "blue", "purple", "orange"];
+    var randomColor = colors[Math.floor(Math.random() * colors.length)];
+    document.getElementById("star3").style.color = randomColor;
+  }, 1000);
+  setInterval(function() {
+    var colors = ["red", "green", "blue", "purple", "orange"];
+    var randomColor = colors[Math.floor(Math.random() * colors.length)];
+    document.getElementById("star4").style.color = randomColor;
+  }, 1000);
+}
 
+</script>
 </body>
 </html>
