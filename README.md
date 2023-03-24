@@ -220,7 +220,45 @@
       Write a Js Program To Change The color of the Paragraph After 2 sec of Interval using SetTimeout<br>
 
       Task49<br>
-      Write A Js Program To take Task As an Input from User and Update that Task on Document and after the 5 sec again take the input from user that if user has completed its Task or not If User Enter Yes the print ”Promise Fulfilled” in Green color and if no Then Print “Promise Un Fulfilled” in red Color<br>
+      Write A Js Program To take Task As an Input from User and Update that Task on Document and after the 5 sec again take the input from user that if user has             completed its Task or not If User Enter Yes the print ”Promise Fulfilled” in Green color and if no Then Print “Promise Un Fulfilled” in red Color<br>
 
-     Task50<br>
-     Write a js Program to change Continuously color of the Star after Every 1 sec on button click<br><br>
+      Task50<br>
+      Write a js Program to change Continuously color of the Star after Every 1 sec on button click<br><br>
+     
+19. [Session19](https://github.com/sakshimunde18/Iqra-Technolgy/blob/main/session18.html)<br>
+    
+      Task51<br>
+      Write a Js Program To Change The color of the Paragraph After 2 sec of Interval using SetTimeout<br>
+    
+      Task52<br>
+      Write A Js Program To take Task As an Input from User and Update that Task on Document and after the 5 sec again take the input from user that if user has             completed its Task or not If User Enter Yes the print ”Promise Fulfilled” in Green color and if no Then Print “Promise Un Fulfilled” in red Color<br>
+    
+      Task53<br>
+      Write a JS Program To take Input From User as “I am Learning HTML” and Replace the HTML by Javascript using Regular Expression.<br>
+    
+20. [Session20](https://github.com/sakshimunde18/Iqra-Technolgy/blob/main/session20.html)<br>
+   
+      Task54<br>
+      Write a JS Program to Take Mobile Number From User using Input Type Text and Validate the Input Using Regular Expression if User Enter Mobile Number Less than or       Greater Than 10 then the Error message will be Print on Document and if User Enter Alphabet then also it will show Error on Document<br>
+   
+     Task55<br>
+     Write a JS Program to Take Email ID From User using Input Type Text and Validate the Input Using Regular Expression if User Input is not contain the Following     thing   (“@”, “.com”, “gmail”, “Number”) which are available in Email and in a Proper way Then It will Show Error on Document
+   
+     Task56<br>
+     Write a JS Program To take Input From User as “I am Learning HTML” and Replace the HTML by Javascript using Regular Expression.<br>
+   
+21. [Session21](https://github.com/sakshimunde18/Iqra-Technolgy/blob/main/session21.html)
+   
+    Task57<br>
+    "Write a Js program using Fetch api fetch the resource of a api and pick api link from github
+    -- Print the Output in console json form
+    -- Print the Output in console in text form
+    -- Print the Output in console using json"<br>
+
+     Task58<br>
+   Record a video in which you have to go to W3school<html using BOM navigation go back till Google home page and then from home page go back to html page in         W3School<br>
+  
+     Task 59<br>
+     Practice the go method in history
+    
+    
